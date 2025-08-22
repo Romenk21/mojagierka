@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moja Gra</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #1e1e1e;
+      color: white;
+    }
+    .download {
+      display: inline-block;
+      padding: 15px 25px;
+      margin-top: 20px;
+      font-size: 20px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    .download:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>Moja Gra 1.0</h1>
+  <p>Super gra stworzona przeze mnie 🚀</p>
+  <a class="download" href="mojagra.zip" download>Pobierz grę</a>
+</body>
+</html>
