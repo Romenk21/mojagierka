@@ -2,32 +2,44 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Moja Gra</title>
+  <title>NonGames</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
+      background: url("Bez tsadddddddddytułu.png") no-repeat center center fixed;
+      background-size: cover;
       text-align: center;
-      background: #1e1e1e;
-      color: white;
     }
-    .download {
+    .game-box {
       display: inline-block;
-      padding: 15px 25px;
-      margin-top: 20px;
-      font-size: 20px;
-      background: #28a745;
-      color: white;
-      text-decoration: none;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border: 3px solid black;
       border-radius: 10px;
+      vertical-align: top;
+      line-height: 200px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+      transition: 0.2s;
     }
-    .download:hover {
-      background: #218838;
+    .game-box:hover {
+      background: rgba(200, 255, 200, 0.9);
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>Moja Gra 1.0</h1>
-  <p>Super gra stworzona przeze mnie 🚀</p>
-  <a class="download" href="mojagra.zip" download>Pobierz grę</a>
+  <h1 style="color: white; text-shadow: 2px 2px 5px black;">NonGames</h1>
+
+  <a class="game-box" href="countryballs_adventure.zip" download>Countryballs Adventure</a>
+  <a class="game-box" href="#">Wkrótce...</a>
+  <a class="game-box" href="#">Wkrótce...</a>
+
 </body>
 </html>
