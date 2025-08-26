@@ -1,38 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Countryballs Adventure — Strona główna</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Napis na środku</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: flex-start; /* ustawienie na górę */
+      padding-top: 100px; /* odległość od góry, regulujesz według potrzeby */
+      background-color: #f0f0f0; 
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ffffff; /* biały napis */
+      -webkit-text-stroke: 2px #000000; /* czarny obrys */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <aside class="changelog-wrap">
-    <a class="changelog" href="#changelog" aria-label="Zobacz changelog" title="Changelog">
-      <img src="assets/changelog-ball.svg" alt="" width="48" height="48" />
-      <span class="label">Changelog</span>
-      <div class="panel" id="changelog" role="region" aria-label="Lista zmian">
-        <h2>Changelog</h2>
-        <ul>
-          <li><strong>22.08.2025</strong> — start strony 🤘</li>
-          <li><strong>Wkrótce</strong> — build do pobrania</li>
-        </ul>
-      </div>
-    </a>
-  </aside>
-
-  <main class="hero">
-    <h1 class="title">Countryballs Adventure</h1>
-    <p class="subtitle">Lekka strona pod GitHub Pages — gotowa na Twoją gierkę.</p>
-    <nav class="cta">
-      <a class="btn primary" href="download.html" aria-label="Przejdź do pobierania gry">Pobierz grę</a>
-      <button class="btn disabled" title="Wkrótce">Wkrótce</button>
-      <button class="btn disabled" title="Wkrótce">Wkrótce</button>
-    </nav>
-  </main>
-
-  <footer class="footer">
-    <span>2024-2025 Countryballs Adventure</span>
-  </footer>
+  <h1>Countryballs Adventure</h1>
 </body>
 </html>
