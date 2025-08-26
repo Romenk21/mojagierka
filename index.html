@@ -4,21 +4,27 @@
   <meta charset="UTF-8">
   <title>Napis na środku</title>
   <style>
+    /* Import własnej czcionki */
+    @font-face {
+      font-family: "MojaCzcionka";
+      src: url("b.ttf") format("truetype");
+    }
+
     body {
       margin: 0;
       height: 100vh;
       display: flex;
-      justify-content: center; 
-      align-items: flex-start; /* ustawienie na górę */
-      padding-top: 100px; /* odległość od góry, regulujesz według potrzeby */
-      background-color: #f0f0f0; 
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 100px;
+      background-color: #f0f0f0;
     }
 
     h1 {
+      font-family: "MojaCzcionka", Arial, sans-serif; /* najpierw własna, potem fallback */
       font-size: 3rem;
-      color: #ffffff; /* biały napis */
-      -webkit-text-stroke: 2px #000000; /* czarny obrys */
-      font-family: Arial, sans-serif;
+      color: #ffffff;
+      -webkit-text-stroke: 2px #000000;
       text-align: center;
     }
   </style>
